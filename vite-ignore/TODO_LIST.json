@@ -1,0 +1,51 @@
+{
+  "summary": "Build Awwwards-quality futuristic portfolio",
+  "todos": [
+    {
+      "id": 1,
+      "description": "Theme, effects & loading screen components",
+      "files": [
+        "src/theme.css",
+        "src/components/"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": 2,
+      "description": "Hero & About sections with holographic effects",
+      "files": [
+        "src/components/Hero.tsx",
+        "src/components/About.tsx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": 3,
+      "description": "Experience, Skills & Education sections",
+      "files": [
+        "src/components/Experience.tsx",
+        "src/components/Skills.tsx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": 4,
+      "description": "Projects, Certifications & Terminal sections",
+      "files": [
+        "src/components/Projects.tsx",
+        "src/components/Certifications.tsx"
+      ],
+      "status": "complete"
+    },
+    {
+      "id": 5,
+      "description": "Stats, Contact, Footer & main page assembly",
+      "files": [
+        "src/pages/Index.tsx"
+      ],
+      "status": "complete"
+    }
+  ],
+  "createdAt": "2026-07-14T05:28:40.083Z",
+  "updatedAt": "2026-07-14T05:39:21.122Z"
+}

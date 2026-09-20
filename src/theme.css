@@ -1,0 +1,76 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * Premium Futuristic Portfolio Theme
+ */
+@theme {
+	/* Core Colors */
+	--color-void: #080808;
+	--color-deep-navy: #101725;
+	--color-electric-blue: #4CC9F0;
+	--color-cyan: #00F5FF;
+	--color-purple: #8B5CF6;
+	--color-glow-blue: #4CC9F080;
+	--color-glow-purple: #8B5CF680;
+	--color-glow-cyan: #00F5FF60;
+
+	/* Glass Effects */
+	--color-glass: #10172580;
+	--color-glass-border: #4CC9F020;
+	--color-glass-highlight: #ffffff08;
+
+	/* Text Colors */
+	--color-text-primary: #ffffff;
+	--color-text-secondary: #94a3b8;
+	--color-text-muted: #64748b;
+
+	/* Semantic Colors */
+	--color-primary: #4CC9F0;
+	--color-primary-foreground: #080808;
+	--color-secondary: #8B5CF6;
+	--color-secondary-foreground: #ffffff;
+	--color-accent: #00F5FF;
+	--color-accent-foreground: #080808;
+
+	/* UI Colors */
+	--color-border: #4CC9F015;
+	--color-input: #101725;
+	--color-ring: #4CC9F0;
+	--color-muted: #1e293b;
+	--color-muted-foreground: #94a3b8;
+
+	/* Radius */
+	--radius-sm: 0.5rem;
+	--radius-md: 0.75rem;
+	--radius-lg: 1rem;
+	--radius-xl: 1.5rem;
+	--radius-2xl: 2rem;
+
+	/* Fonts */
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, #4CC9F0 0%, #8B5CF6 100%);
+	border-radius: 4px;
+}
+
+/* Force normal scroll behavior */
+html {
+	scroll-behavior: auto !important;
+}
+
+/* Selection */
+::selection {
+	background: #4CC9F040;
+	color: #ffffff;
+}
