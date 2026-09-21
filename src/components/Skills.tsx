@@ -15,23 +15,28 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
 {
-  title: 'Elementor & Web',
+  title: 'Programming Languages',
   color: '#4CC9F0',
-  skills: ['Elementor Pro', 'Theme Builder', 'Plugin & Theme Setup', 'Site Migration & Hosting', 'Responsive Breakpoints', 'Layout Debugging']
+  skills: ['C++', 'C#', 'HTML', 'CSS', 'PHP', 'VB.NET', 'JavaScript']
+},
+{
+  title: 'Frameworks & Databases',
+  color: '#8B5CF6',
+  skills: ['.NET Framework', 'MySQL', 'phpMyAdmin', 'Microsoft SQL Server']
+},
+{
+  title: 'Elementor & Web Expertise',
+  color: '#00F5FF',
+  skills: ['Elementor Pro', 'Theme Builder', 'Domain Mapping & DNS Setup', 'Plugin & Theme Setup', 'Site Migration & Hosting', 'Responsive Breakpoints', 'Layout Debugging']
 },
 {
   title: 'Customer Experience',
-  color: '#8B5CF6',
+  color: '#4CC9F0',
   skills: ['Live Chat Support', 'Email Ticketing', 'Customer Empathy', 'Ticket Prioritization', 'SLA Management', 'Issue Resolution', 'Technical Writing']
 },
 {
-  title: 'Programming & DB',
-  color: '#00F5FF',
-  skills: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'C++', 'VB.NET', 'MySQL', 'MS SQL Server']
-},
-{
   title: 'Tools & Systems',
-  color: '#4CC9F0',
+  color: '#8B5CF6',
   skills: ['Kustomer', 'Visual Studio Code', 'Visual Studio', 'SAP Crystal Reports']
 }];
 

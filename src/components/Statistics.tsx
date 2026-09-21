@@ -21,7 +21,7 @@ interface Stat {
 
 const stats: Stat[] = [
 { icon: FolderCode, value: 2, suffix: '+', label: 'Projects Completed', color: '#4CC9F0' },
-{ icon: Code2, value: 15, suffix: '+', label: 'Technologies', color: '#8B5CF6' },
+{ icon: Code2, value: 29, suffix: '+', label: 'Technologies', color: '#8B5CF6' },
 { icon: Award, value: 3, suffix: '', label: 'Certifications', color: '#00F5FF' },
 { icon: Briefcase, value: calculateYearsExperience(), suffix: '+', label: 'Years Experience', color: '#4CC9F0' }];
 
