@@ -1,14 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Download, Mail, FolderOpen, ChevronDown, Code2, Headphones, Settings } from 'lucide-react';
-import { MagneticButton } from '@/components/ui/MagneticButton';
+import { ChevronDown, Code2, Headphones, Settings } from 'lucide-react';
 import { HolographicFrame } from '@/components/ui/HolographicFrame';
 import { TypeWriter } from '@/components/ui/TypeWriter';
-import { ResumeModal } from '@/components/ResumeModal';
 import profileImage from '@/assets/uploads/profile.jpg';
 
 export function Hero() {
-  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
   const roles = [
   { title: 'Elementor Expert', icon: Code2, color: '#4CC9F0' },
@@ -17,17 +14,6 @@ export function Hero() {
 
 
   const [activeRole, setActiveRole] = useState(0);
-
-
-  const scrollToProjects = () => {
-    const el = document.getElementById('projects');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToContact = () => {
-    const el = document.getElementById('contact');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section data-ev-id="ev_87dc2c6abe" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20 overflow-hidden">
@@ -215,27 +201,6 @@ export function Hero() {
 
 							Customer-centric Technical Specialist with expertise in web troubleshooting and omnichannel support.
 						</motion.p>
-
-						{/* Buttons */}
-						<motion.div data-ev-id="ev_f04f04ae65"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            className="flex flex-wrap justify-center lg:justify-start gap-4">
-
-							<MagneticButton variant="secondary" onClick={scrollToProjects}>
-								<FolderOpen className="w-5 h-5" />
-								View Projects
-							</MagneticButton>
-							<MagneticButton variant="secondary" onClick={() => setIsResumeModalOpen(true)}>
-								<Download className="w-5 h-5" />
-								Download Resume
-							</MagneticButton>
-							<MagneticButton variant="ghost" onClick={scrollToContact}>
-								<Mail className="w-5 h-5" />
-								Contact Me
-							</MagneticButton>
-						</motion.div>
 					</div>
 
 					{/* Profile image */}
@@ -268,9 +233,6 @@ export function Hero() {
 					<ChevronDown className="w-5 h-5 text-electric-blue" />
 				</motion.div>
 			</motion.div>
-
-			{/* Resume Modal */}
-			<ResumeModal isOpen={isResumeModalOpen} onClose={() => setIsResumeModalOpen(false)} />
 		</section>);
 
 }
