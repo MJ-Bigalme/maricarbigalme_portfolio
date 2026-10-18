@@ -223,7 +223,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-wrap justify-center lg:justify-start gap-4">
 
-							<MagneticButton variant="primary" onClick={scrollToProjects}>
+							<MagneticButton variant="secondary" onClick={scrollToProjects}>
 								<FolderOpen className="w-5 h-5" />
 								View Projects
 							</MagneticButton>
