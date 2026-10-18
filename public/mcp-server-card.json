@@ -1,0 +1,55 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server-card/v1",
+  "name": "maricar-portfolio",
+  "display_name": "Maricar Joy Bigalme Portfolio",
+  "description": "Access professional portfolio data for Maricar Joy M. Bigalme - Technical Support Engineer at Elementor",
+  "version": "1.0.0",
+  "publisher": {
+    "name": "Maricar Joy M. Bigalme",
+    "url": "https://itsmjb.sticklight.app",
+    "email": "maricarbigalmeeee@gmail.com"
+  },
+  "repository": "https://github.com/MJ-Bigalme",
+  "capabilities": {
+    "resources": {
+      "supported": true,
+      "listChanged": false
+    },
+    "tools": {
+      "supported": false
+    },
+    "prompts": {
+      "supported": false
+    }
+  },
+  "resources": [
+    {
+      "uri": "https://itsmjb.sticklight.app/portfolio.json",
+      "name": "Portfolio Data",
+      "description": "Complete professional portfolio in JSON-LD format",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://itsmjb.sticklight.app/llms.txt",
+      "name": "LLM Summary",
+      "description": "Plain text summary for language models",
+      "mimeType": "text/plain"
+    },
+    {
+      "uri": "https://itsmjb.sticklight.app/llms-full.txt",
+      "name": "Full Portfolio",
+      "description": "Detailed portfolio information in plain text",
+      "mimeType": "text/plain"
+    }
+  ],
+  "authentication": {
+    "type": "none"
+  },
+  "tags": [
+    "portfolio",
+    "professional",
+    "elementor",
+    "web-development",
+    "technical-support"
+  ]
+}

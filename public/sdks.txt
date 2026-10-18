@@ -1,0 +1,54 @@
+# SDK Information for Maricar Joy Bigalme Portfolio
+# This portfolio provides structured data for AI agents and developers
+
+## No SDK Required
+This is a static portfolio website with JSON-LD structured data.
+No SDK installation is required to access the data.
+
+## Data Access Methods
+
+### REST-like Access
+Fetch portfolio data directly via HTTP GET:
+
+```
+GET https://itsmjb.sticklight.app/portfolio.json
+Content-Type: application/json
+```
+
+### LLM-Friendly Text
+For language models, use the plain text endpoints:
+
+```
+GET https://itsmjb.sticklight.app/llms.txt
+GET https://itsmjb.sticklight.app/llms-full.txt
+Content-Type: text/plain
+```
+
+### Agent Card
+For agent discovery protocols:
+
+```
+GET https://itsmjb.sticklight.app/agent.json
+Content-Type: application/json
+```
+
+## Example Usage (JavaScript)
+
+```javascript
+const response = await fetch('https://itsmjb.sticklight.app/portfolio.json');
+const portfolio = await response.json();
+console.log(portfolio.name); // "Maricar Joy M. Bigalme"
+```
+
+## Example Usage (Python)
+
+```python
+import requests
+
+response = requests.get('https://itsmjb.sticklight.app/portfolio.json')
+portfolio = response.json()
+print(portfolio['name'])  # "Maricar Joy M. Bigalme"
+```
+
+## Contact
+For questions about data access: maricarbigalmeeee@gmail.com

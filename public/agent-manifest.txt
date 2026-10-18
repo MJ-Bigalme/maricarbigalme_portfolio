@@ -1,0 +1,46 @@
+# Agent Manifest for Maricar Joy Bigalme Portfolio
+# Version: 1.0.0
+# Last Updated: October 2026
+
+## Service Information
+name: Maricar Joy Bigalme Portfolio
+url: https://itsmjb.sticklight.app
+type: portfolio
+owner: Maricar Joy M. Bigalme
+contact: maricarbigalmeeee@gmail.com
+
+## Available Resources
+portfolio_data: /portfolio.json
+llm_summary: /llms.txt
+llm_detailed: /llms-full.txt
+agent_card: /agent.json
+agent_instructions: /AGENTS.md
+mcp_server: /mcp-server-card.json
+openapi: /.well-known/openapi.json
+sitemap: /sitemap.xml
+robots: /robots.txt
+
+## Authentication
+required: false
+type: none
+
+## Capabilities
+read_portfolio: true
+read_skills: true
+read_experience: true
+read_contact: true
+api_access: true
+
+## Usage Guidelines
+- Attribution required when citing information
+- Professional use permitted (networking, recruitment, Q&A)
+- Do not use for impersonation or spam
+- Do not use for unsolicited contact
+
+## Topics
+- Elementor
+- WordPress
+- Technical Support
+- Web Development
+- IT Professional
+- Philippines

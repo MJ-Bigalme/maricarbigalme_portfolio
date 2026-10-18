@@ -1,0 +1,118 @@
+# Maricar Joy M. Bigalme - Complete Professional Portfolio
+
+## Personal Information
+Name: Maricar Joy M. Bigalme
+Title: Technical Support Engineer – Tier 2
+Employer: Elementor (via Yngen Datacom Corp.)
+Location: San Pedro City, Laguna, Philippines
+Email: maricarbigalmeeee@gmail.com
+Phone: +63 965 652 6242
+LinkedIn: https://www.linkedin.com/in/maricar-bigalme-bba3332b0
+GitHub: https://github.com/MJ-Bigalme
+Portfolio: https://itsmjb.sticklight.app
+
+## Professional Summary
+Information Technology Professional specializing in Elementor, Web Development, and Technical Support. Currently serving as a Tier 2 Technical Support Engineer at Elementor, providing advanced troubleshooting and customer support for the Elementor page builder platform.
+
+## Work Experience
+
+### Technical Support Engineer – Tier 2
+Elementor · Yngen Datacom Corp.
+October 2026 – Present
+
+Responsibilities:
+- Provide advanced troubleshooting for complex Elementor cases
+- Collaborate with development teams on bug reports
+- Create technical documentation and knowledge base articles
+- Analyze recurring issues and propose systematic solutions
+- Maintain high customer satisfaction scores
+- Participate in product feedback and improvement discussions
+
+### Technical Support Engineer – Tier 1
+Elementor · Yngen Datacom Corp.
+September 2024 – September 2026
+
+Responsibilities:
+- Delivered technical support via live chat and email ticketing systems
+- Specialized in Elementor page builder issues
+- Diagnosed and troubleshot Elementor Theme Builder layouts
+- Debugged dynamic content tags and CSS responsiveness
+- Provided empathetic, solution-oriented customer service
+- Maintained strict ticket response and resolution SLAs
+- Performed precise ticket tagging and prioritization
+- Created comprehensive case documentation for escalations
+
+### Application Development & Support Intern
+Phelps Dodge Philippines Energy Products Corp.
+February 2024 – May 2024
+
+Responsibilities:
+- Assisted in building applications using VB.NET and .NET Framework
+- Followed organizational coding standards
+- Designed and maintained database-driven reports using SAP Crystal Reports
+- Provided prompt Tier 1 technical support
+- Handled internal hardware, software, and network inquiries
+
+## Education
+Bachelor of Science in Information Technology
+Laguna State Polytechnic University – San Pablo City Campus
+2020 – 2024
+
+## Technical Skills
+
+### Programming Languages
+- C++
+- C#
+- HTML
+- CSS
+- PHP
+- VB.NET
+- JavaScript
+
+### Frameworks & Databases
+- .NET Framework
+- MySQL
+- phpMyAdmin
+- Microsoft SQL Server
+
+### Elementor & Web Expertise
+- Elementor Pro
+- Theme Builder
+- Domain Mapping & DNS Setup
+- Plugin & Theme Setup
+- Site Migration & Hosting
+- Responsive Breakpoints
+- Layout Debugging
+
+### Customer Experience
+- Live Chat Support
+- Email Ticketing
+- Customer Empathy
+- Ticket Prioritization
+- SLA Management
+- Issue Resolution
+- Technical Writing
+
+### Tools & Systems
+- Kustomer
+- Visual Studio Code
+- Visual Studio
+- SAP Crystal Reports
+
+## Certifications
+1. Responsive Web Design – freeCodeCamp
+2. Introduction to Cybersecurity – Cisco
+3. Computer Systems Servicing NC II – TESDA
+
+## Machine-Readable Data
+For structured data, access: https://itsmjb.sticklight.app/portfolio.json
+For API specification: https://itsmjb.sticklight.app/.well-known/openapi.json
+
+## Usage Rights
+- Attribution required when citing
+- Professional use permitted (networking, recruitment, Q&A)
+- Do not use for impersonation or spam
+
+---
+Last Updated: October 2026
+© 2026 Maricar Joy M. Bigalme. All rights reserved.

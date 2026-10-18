@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agentprotocol.ai/schema/agent-card/v1",
+  "name": "Maricar Joy Bigalme Portfolio",
+  "description": "Professional portfolio of Maricar Joy M. Bigalme - Technical Support Engineer at Elementor",
+  "url": "https://itsmjb.sticklight.app",
+  "version": "1.0.0",
+  "provider": {
+    "name": "Maricar Joy M. Bigalme",
+    "email": "maricarbigalmeeee@gmail.com",
+    "url": "https://itsmjb.sticklight.app"
+  },
+  "capabilities": {
+    "data_access": true,
+    "api_access": true,
+    "authentication": false,
+    "real_time": false
+  },
+  "resources": {
+    "portfolio_data": "/portfolio.json",
+    "llm_summary": "/llms.txt",
+    "llm_detailed": "/llms-full.txt",
+    "openapi_spec": "/.well-known/openapi.json",
+    "sitemap": "/sitemap.xml"
+  },
+  "contact": {
+    "email": "maricarbigalmeeee@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maricar-bigalme-bba3332b0",
+    "github": "https://github.com/MJ-Bigalme",
+    "phone": "+63-965-652-6242"
+  },
+  "topics": [
+    "web development",
+    "elementor",
+    "wordpress",
+    "technical support",
+    "customer experience",
+    "IT professional",
+    "philippines"
+  ],
+  "allowed_uses": [
+    "professional networking",
+    "recruitment",
+    "question answering",
+    "summarization"
+  ],
+  "disallowed_uses": [
+    "impersonation",
+    "spam",
+    "training without attribution"
+  ]
+}

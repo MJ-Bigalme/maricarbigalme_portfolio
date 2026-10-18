@@ -32,11 +32,28 @@ Allow: /
 # Discovery Files
 Sitemap: https://itsmjb.sticklight.app/sitemap.xml
 
-# AI/LLM Discovery
-# Portfolio Data: /portfolio.json
+# AI/LLM Discovery Endpoints
+# Portfolio Data (JSON-LD): /portfolio.json
 # LLM Summary: /llms.txt
+# LLM Full: /llms-full.txt
+# Agent Card: /agent.json
+# Agent Instructions: /AGENTS.md
+# MCP Server Card: /mcp-server-card.json
 # AI Policy: /ai.txt
 # OpenAPI Spec: /.well-known/openapi.json
 # AI Plugin: /.well-known/ai-plugin.json
 # MCP Discovery: /.well-known/mcp.json
 # Security: /.well-known/security.txt
+
+# Explicit Allow for AI Discovery Files
+Allow: /portfolio.json
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /agent.json
+Allow: /AGENTS.md
+Allow: /mcp-server-card.json
+Allow: /ai.txt
+Allow: /openapi.json
+Allow: /agent-manifest.txt
+Allow: /sdks.txt
+Allow: /.well-known/

@@ -1,0 +1,168 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Maricar Joy Bigalme Portfolio API",
+    "description": "API for accessing the professional portfolio of Maricar Joy M. Bigalme - Technical Support Engineer at Elementor",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Maricar Joy M. Bigalme",
+      "email": "maricarbigalmeeee@gmail.com",
+      "url": "https://itsmjb.sticklight.app"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://itsmjb.sticklight.app",
+      "description": "Production portfolio server"
+    }
+  ],
+  "paths": {
+    "/portfolio.json": {
+      "get": {
+        "operationId": "getPortfolio",
+        "summary": "Get complete portfolio data",
+        "description": "Returns the full portfolio data in JSON-LD format including personal info, experience, skills, projects, and certifications",
+        "responses": {
+          "200": {
+            "description": "Portfolio data in JSON-LD format",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Portfolio"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLLMSummary",
+        "summary": "Get LLM-friendly summary",
+        "description": "Returns a plain text summary of the portfolio optimized for language models",
+        "responses": {
+          "200": {
+            "description": "Plain text summary",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "operationId": "getLLMFull",
+        "summary": "Get detailed LLM-friendly portfolio",
+        "description": "Returns the complete portfolio in plain text format optimized for language models",
+        "responses": {
+          "200": {
+            "description": "Detailed plain text portfolio",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent.json": {
+      "get": {
+        "operationId": "getAgentCard",
+        "summary": "Get agent card",
+        "description": "Returns the agent card for AI agent discovery",
+        "responses": {
+          "200": {
+            "description": "Agent card in JSON format",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentCard"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Portfolio": {
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "string"
+          },
+          "@type": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name"
+          },
+          "jobTitle": {
+            "type": "string",
+            "description": "Current job title"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "worksFor": {
+            "type": "object",
+            "properties": {
+              "@type": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hasCredential": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "AgentCard": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "capabilities": {
+            "type": "object"
+          },
+          "resources": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}
