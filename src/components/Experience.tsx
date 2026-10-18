@@ -12,20 +12,33 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
 {
-  title: 'Customer Support Engineer – Tier 1 (Elementor Specialist)',
+  title: 'Customer Support Engineer – Tier 2 (Elementor)',
   company: 'Yngen Datacom Corp.',
-  period: 'September 2024 – Present',
+  period: 'October 2026 – Present',
   current: true,
   responsibilities: [
-  'Deliver technical support via live chat and email ticketing systems',
-  'Specialize in Elementor page builder issues',
-  'Diagnose and troubleshoot Elementor Theme Builder layouts',
-  'Debug dynamic content tags and CSS responsiveness',
-  'Provide empathetic, solution-oriented customer service',
-  'Maintain strict ticket response and resolution SLAs',
-  'Perform precise ticket tagging and prioritization',
-  'Create comprehensive case documentation for escalations']
-
+  'Handle escalated technical issues from Tier 1 support',
+  'Provide advanced troubleshooting for complex Elementor cases',
+  'Mentor and assist Tier 1 agents with difficult tickets',
+  'Collaborate with development teams on bug reports',
+  'Create technical documentation and knowledge base articles',
+  'Analyze recurring issues and propose systematic solutions',
+  'Maintain high customer satisfaction scores on escalated cases',
+  'Participate in product feedback and improvement discussions']
+},
+{
+  title: 'Customer Support Engineer – Tier 1 (Elementor)',
+  company: 'Yngen Datacom Corp.',
+  period: 'September 2024 – September 2026',
+  responsibilities: [
+  'Delivered technical support via live chat and email ticketing systems',
+  'Specialized in Elementor page builder issues',
+  'Diagnosed and troubleshot Elementor Theme Builder layouts',
+  'Debugged dynamic content tags and CSS responsiveness',
+  'Provided empathetic, solution-oriented customer service',
+  'Maintained strict ticket response and resolution SLAs',
+  'Performed precise ticket tagging and prioritization',
+  'Created comprehensive case documentation for escalations']
 },
 {
   title: 'Application Development & Support Intern',
@@ -37,7 +50,6 @@ const experiences: ExperienceItem[] = [
   'Designed and maintained database-driven reports using SAP Crystal Reports',
   'Provided prompt Tier 1 technical support',
   'Handled internal hardware, software, and network inquiries']
-
 }];
 
 

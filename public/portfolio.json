@@ -8,7 +8,7 @@
     "name": "Maricar Joy M. Bigalme",
     "givenName": "Maricar Joy",
     "familyName": "Bigalme",
-    "jobTitle": "Customer Support Engineer – Elementor Specialist",
+    "jobTitle": "Customer Support Engineer – Tier 2 (Elementor)",
     "description": "IT Professional specializing in Elementor, Customer Experience, and Technical Support Engineering",
     "url": "https://maricarjoy.dev",
     "email": "maricarbigalmeeee@gmail.com",
@@ -90,14 +90,25 @@
   "experience": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Customer Support Engineer – Tier 1 (Elementor Specialist)",
-      "startDate": "2024-09",
+      "roleName": "Customer Support Engineer – Tier 2 (Elementor)",
+      "startDate": "2026-10",
       "endDate": null,
       "organization": {
         "@type": "Organization",
         "name": "Yngen Datacom Corp."
       },
-      "description": "Deliver technical support via live chat and email ticketing systems. Specialize in Elementor page builder issues, diagnose and troubleshoot Theme Builder layouts, debug dynamic content tags and CSS responsiveness."
+      "description": "Handle escalated technical issues, provide advanced troubleshooting for complex Elementor cases, mentor Tier 1 agents, collaborate with development teams on bug reports."
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Customer Support Engineer – Tier 1 (Elementor)",
+      "startDate": "2024-09",
+      "endDate": "2026-09",
+      "organization": {
+        "@type": "Organization",
+        "name": "Yngen Datacom Corp."
+      },
+      "description": "Delivered technical support via live chat and email ticketing systems. Specialized in Elementor page builder issues, diagnosed and troubleshot Theme Builder layouts."
     },
     {
       "@type": "OrganizationRole",

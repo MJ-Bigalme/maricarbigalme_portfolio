@@ -11,7 +11,7 @@ export function Hero() {
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
   const roles = [
-  { title: 'Elementor Specialist', icon: Code2, color: '#4CC9F0' },
+  { title: 'Elementor Expert', icon: Code2, color: '#4CC9F0' },
   { title: 'Customer Experience', icon: Headphones, color: '#8B5CF6' },
   { title: 'Technical Support', icon: Settings, color: '#00F5FF' }];
 
