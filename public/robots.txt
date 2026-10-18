@@ -1,0 +1,31 @@
+# Maricar Joy M. Bigalme - Digital Portfolio
+# Welcome, crawlers and AI agents!
+
+User-agent: *
+Allow: /
+
+# AI Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: /sitemap.xml
+
+# LLMs info
+# See /llms.txt for AI-readable portfolio summary
+# See /portfolio.json for structured portfolio data

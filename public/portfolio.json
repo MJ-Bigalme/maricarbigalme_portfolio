@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "2024-09-01",
+  "dateModified": "2026-10-18",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Maricar Joy M. Bigalme",
+    "givenName": "Maricar Joy",
+    "familyName": "Bigalme",
+    "jobTitle": "Customer Support Engineer – Elementor Specialist",
+    "description": "IT Professional specializing in Elementor, Customer Experience, and Technical Support Engineering",
+    "url": "https://maricarjoy.dev",
+    "email": "maricarbigalmeeee@gmail.com",
+    "telephone": "+63-965-652-6242",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Pedro City",
+      "addressRegion": "Laguna",
+      "addressCountry": "Philippines"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/maricar-bigalme-bba3332b0",
+      "https://github.com/MJ-Bigalme"
+    ],
+    "knowsAbout": [
+      "Elementor Pro",
+      "Theme Builder",
+      "WordPress",
+      "Web Development",
+      "Customer Support",
+      "Technical Support",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "C++",
+      "C#",
+      "VB.NET",
+      ".NET Framework",
+      "MySQL",
+      "Microsoft SQL Server"
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Responsive Web Design",
+        "credentialCategory": "Certificate",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "freeCodeCamp"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Introduction to Cybersecurity",
+        "credentialCategory": "Certificate",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Cisco"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Computer Systems Servicing NC II",
+        "credentialCategory": "National Certificate",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "TESDA"
+        }
+      }
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Laguna State Polytechnic University – San Pablo City Campus",
+      "department": "Information Technology"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Yngen Datacom Corp."
+    }
+  },
+  "skills": {
+    "programmingLanguages": ["C++", "C#", "HTML", "CSS", "PHP", "VB.NET", "JavaScript"],
+    "frameworksAndDatabases": [".NET Framework", "MySQL", "phpMyAdmin", "Microsoft SQL Server"],
+    "elementorAndWeb": ["Elementor Pro", "Theme Builder", "Domain Mapping & DNS Setup", "Plugin & Theme Setup", "Site Migration & Hosting", "Responsive Breakpoints", "Layout Debugging"],
+    "customerExperience": ["Live Chat Support", "Email Ticketing", "Customer Empathy", "Ticket Prioritization", "SLA Management", "Issue Resolution", "Technical Writing"],
+    "toolsAndSystems": ["Kustomer", "Visual Studio Code", "Visual Studio", "SAP Crystal Reports"]
+  },
+  "experience": [
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Customer Support Engineer – Tier 1 (Elementor Specialist)",
+      "startDate": "2024-09",
+      "endDate": null,
+      "organization": {
+        "@type": "Organization",
+        "name": "Yngen Datacom Corp."
+      },
+      "description": "Deliver technical support via live chat and email ticketing systems. Specialize in Elementor page builder issues, diagnose and troubleshoot Theme Builder layouts, debug dynamic content tags and CSS responsiveness."
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Application Development & Support Intern",
+      "startDate": "2024-02",
+      "endDate": "2024-05",
+      "organization": {
+        "@type": "Organization",
+        "name": "Phelps Dodge Philippines Energy Products Corp."
+      },
+      "description": "Assisted in building applications using VB.NET and .NET Framework. Designed and maintained database-driven reports using SAP Crystal Reports. Provided Tier 1 technical support."
+    }
+  ]
+}

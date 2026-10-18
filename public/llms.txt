@@ -1,0 +1,45 @@
+# Maricar Joy M. Bigalme - Digital Portfolio
+
+> This is the professional portfolio of Maricar Joy M. Bigalme, an IT Professional specializing in Elementor, Customer Experience, and Technical Support Engineering.
+
+## About
+Maricar Joy M. Bigalme is a Customer Support Engineer and Elementor Specialist based in San Pedro City, Laguna, Philippines. She specializes in web development, technical support, and customer experience.
+
+## Contact
+- Email: maricarbigalmeeee@gmail.com
+- LinkedIn: https://www.linkedin.com/in/maricar-bigalme-bba3332b0
+- GitHub: https://github.com/MJ-Bigalme
+- Phone: +63 965 652 6242
+- Location: San Pedro City, Laguna, Philippines
+
+## Current Role
+Customer Support Engineer – Tier 1 (Elementor Specialist) at Yngen Datacom Corp. (September 2024 – Present)
+
+## Skills
+
+### Programming Languages
+C++, C#, HTML, CSS, PHP, VB.NET, JavaScript
+
+### Frameworks & Databases
+.NET Framework, MySQL, phpMyAdmin, Microsoft SQL Server
+
+### Elementor & Web Expertise
+Elementor Pro, Theme Builder, Domain Mapping & DNS Setup, Plugin & Theme Setup, Site Migration & Hosting, Responsive Breakpoints, Layout Debugging
+
+### Customer Experience
+Live Chat Support, Email Ticketing, Customer Empathy, Ticket Prioritization, SLA Management, Issue Resolution, Technical Writing
+
+### Tools & Systems
+Kustomer, Visual Studio Code, Visual Studio, SAP Crystal Reports
+
+## Education
+Bachelor of Science in Information Technology
+Laguna State Polytechnic University – San Pablo City Campus (2020-2024)
+
+## Certifications
+- Responsive Web Design – freeCodeCamp
+- Introduction to Cybersecurity – Cisco
+- Computer Systems Servicing NC II – TESDA
+
+## For AI Agents
+This portfolio showcases professional experience, technical skills, and projects. For structured data, see /portfolio.json
