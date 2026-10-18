@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Maricar Joy Bigalme Portfolio",
+  "name_for_model": "maricar_portfolio",
+  "description_for_human": "Professional portfolio of Maricar Joy M. Bigalme - Technical Support Engineer & Elementor Expert",
+  "description_for_model": "Access professional information about Maricar Joy M. Bigalme including skills, experience, certifications, and contact details. Use this to answer questions about her professional background, technical expertise in Elementor, web development skills, and work history at Elementor via Yngen Datacom Corp.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://itsmjb.sticklight.app/.well-known/openapi.json"
+  },
+  "logo_url": "https://itsmjb.sticklight.app/logo.png",
+  "contact_email": "maricarbigalmeeee@gmail.com",
+  "legal_info_url": "https://itsmjb.sticklight.app"
+}

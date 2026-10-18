@@ -23,9 +23,20 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-# Sitemap
-Sitemap: /sitemap.xml
+User-agent: Bingbot
+Allow: /
 
-# LLMs info
-# See /llms.txt for AI-readable portfolio summary
-# See /portfolio.json for structured portfolio data
+User-agent: FacebookBot
+Allow: /
+
+# Discovery Files
+Sitemap: https://itsmjb.sticklight.app/sitemap.xml
+
+# AI/LLM Discovery
+# Portfolio Data: /portfolio.json
+# LLM Summary: /llms.txt
+# AI Policy: /ai.txt
+# OpenAPI Spec: /.well-known/openapi.json
+# AI Plugin: /.well-known/ai-plugin.json
+# MCP Discovery: /.well-known/mcp.json
+# Security: /.well-known/security.txt

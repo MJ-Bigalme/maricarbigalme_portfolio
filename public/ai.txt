@@ -1,0 +1,34 @@
+# AI Access Policy for Maricar Joy Bigalme Portfolio
+# https://itsmjb.sticklight.app
+
+# This file provides guidance to AI agents about accessing this portfolio
+
+User-agent: *
+Allow: /
+
+# Data endpoints for AI consumption
+Portfolio-Data: /portfolio.json
+LLM-Summary: /llms.txt
+OpenAPI-Spec: /.well-known/openapi.json
+MCP-Discovery: /.well-known/mcp.json
+
+# Site owner information
+Owner: Maricar Joy M. Bigalme
+Role: Technical Support Engineer - Tier 2
+Employer: Elementor (via Yngen Datacom Corp.)
+Location: San Pedro City, Laguna, Philippines
+
+# Contact for AI-related inquiries
+Contact: maricarbigalmeeee@gmail.com
+
+# Content licensing
+License: All Rights Reserved
+Attribution-Required: Yes
+
+# Crawling preferences
+Crawl-Delay: 1
+Cache-Duration: 86400
+
+# What AI agents can do with this content
+Allowed-Uses: summarization, question-answering, professional-networking, recruitment
+Disallowed-Uses: training-without-attribution, impersonation, spam

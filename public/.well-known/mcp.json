@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "name": "Maricar Joy Bigalme Portfolio",
+  "description": "Professional portfolio and contact information for Maricar Joy M. Bigalme - Technical Support Engineer at Elementor",
+  "provider": {
+    "name": "Maricar Joy M. Bigalme",
+    "url": "https://itsmjb.sticklight.app"
+  },
+  "capabilities": {
+    "resources": true,
+    "tools": false,
+    "prompts": false
+  },
+  "resources": [
+    {
+      "uri": "portfolio://profile",
+      "name": "Professional Profile",
+      "description": "Complete professional profile including name, title, contact, and social links",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "portfolio://skills",
+      "name": "Technical Skills",
+      "description": "All technical skills organized by category: programming, frameworks, Elementor/web, customer experience, tools",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "portfolio://experience",
+      "name": "Work Experience",
+      "description": "Employment history including current role at Elementor and past positions",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "portfolio://certifications",
+      "name": "Certifications",
+      "description": "Professional certifications from freeCodeCamp, Cisco, and TESDA",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "portfolio://contact",
+      "name": "Contact Information",
+      "description": "Email, phone, location, LinkedIn, and GitHub links",
+      "mimeType": "application/json"
+    }
+  ],
+  "endpoints": {
+    "portfolio_data": "/portfolio.json",
+    "llm_summary": "/llms.txt",
+    "sitemap": "/sitemap.xml"
+  },
+  "contact": {
+    "email": "maricarbigalmeeee@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maricar-bigalme-bba3332b0",
+    "github": "https://github.com/MJ-Bigalme"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Maricar Joy Bigalme Portfolio API",
+    "description": "API to access professional portfolio information for Maricar Joy M. Bigalme",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Maricar Joy M. Bigalme",
+      "email": "maricarbigalmeeee@gmail.com",
+      "url": "https://itsmjb.sticklight.app"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://itsmjb.sticklight.app",
+      "description": "Production"
+    }
+  ],
+  "paths": {
+    "/portfolio.json": {
+      "get": {
+        "operationId": "getPortfolio",
+        "summary": "Get complete portfolio data",
+        "description": "Returns structured data about Maricar Joy Bigalme including personal info, skills, experience, education, and certifications",
+        "responses": {
+          "200": {
+            "description": "Portfolio data in JSON-LD format",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Portfolio"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLLMsInfo",
+        "summary": "Get LLM-friendly portfolio summary",
+        "description": "Returns a plain text summary of the portfolio optimized for language models",
+        "responses": {
+          "200": {
+            "description": "Plain text portfolio summary",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Portfolio": {
+        "type": "object",
+        "properties": {
+          "@context": { "type": "string" },
+          "@type": { "type": "string" },
+          "mainEntity": { "$ref": "#/components/schemas/Person" },
+          "skills": { "$ref": "#/components/schemas/Skills" },
+          "experience": { "type": "array", "items": { "$ref": "#/components/schemas/Experience" } }
+        }
+      },
+      "Person": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "jobTitle": { "type": "string" },
+          "email": { "type": "string" },
+          "telephone": { "type": "string" },
+          "knowsAbout": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "Skills": {
+        "type": "object",
+        "properties": {
+          "programmingLanguages": { "type": "array", "items": { "type": "string" } },
+          "frameworksAndDatabases": { "type": "array", "items": { "type": "string" } },
+          "elementorAndWeb": { "type": "array", "items": { "type": "string" } },
+          "customerExperience": { "type": "array", "items": { "type": "string" } },
+          "toolsAndSystems": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "Experience": {
+        "type": "object",
+        "properties": {
+          "roleName": { "type": "string" },
+          "startDate": { "type": "string" },
+          "endDate": { "type": "string", "nullable": true },
+          "organization": { "type": "object" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  }
+}

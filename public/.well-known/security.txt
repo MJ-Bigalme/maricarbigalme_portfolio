@@ -1,0 +1,5 @@
+# Security Contact for Maricar Joy Bigalme Portfolio
+Contact: mailto:maricarbigalmeeee@gmail.com
+Preferred-Languages: en, tl
+Canonical: https://itsmjb.sticklight.app/.well-known/security.txt
+Expires: 2027-12-31T23:59:59.000Z
