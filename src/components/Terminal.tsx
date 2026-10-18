@@ -9,7 +9,7 @@ const terminalLines = [
 { type: 'title', text: 'Information Technology Professional' },
 { type: 'role', text: 'Web Developer' },
 { type: 'role', text: 'Application Support Specialist' },
-{ type: 'role', text: 'Customer Support Engineer' },
+{ type: 'role', text: 'Technical Support Engineer' },
 { type: 'output', text: '' },
 { type: 'command', text: 'cat skills.json | head -5' },
 { type: 'code', text: '{' },
