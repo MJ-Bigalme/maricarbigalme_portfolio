@@ -1,0 +1,44 @@
+# HTTP Headers for AI Agent Discovery (RFC 8288)
+# These headers help AI agents discover available resources
+
+/*
+  Link: </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json"
+  Link: </openapi.json>; rel="service-desc"; type="application/openapi+json"
+  Link: </AGENTS.md>; rel="service-doc"; type="text/markdown"
+  Link: </llms.txt>; rel="describedby"; type="text/plain"
+  Link: </portfolio.json>; rel="alternate"; type="application/json"
+  Link: </.well-known/mcp/server-card.json>; rel="mcp-server-card"; type="application/json"
+  Link: </agent.json>; rel="agent"; type="application/json"
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+
+/portfolio.json
+  Content-Type: application/ld+json
+  Access-Control-Allow-Origin: *
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/agent.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/openapi.json
+  Content-Type: application/openapi+json
+  Access-Control-Allow-Origin: *
+
+/.well-known/*
+  Access-Control-Allow-Origin: *
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+  Access-Control-Allow-Origin: *
+
+/.well-known/mcp/server-card.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *

@@ -1,6 +1,9 @@
 # Maricar Joy M. Bigalme - Digital Portfolio
 # Welcome, crawlers and AI agents!
 
+# Content Signals (RFC Draft) - AI Content Usage Preferences
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
 User-agent: *
 Allow: /
 
@@ -56,4 +59,9 @@ Allow: /ai.txt
 Allow: /openapi.json
 Allow: /agent-manifest.txt
 Allow: /sdks.txt
+Allow: /auth.md
 Allow: /.well-known/
+Allow: /.well-known/api-catalog
+Allow: /.well-known/mcp/server-card.json
+Allow: /.well-known/oauth-protected-resource
+Allow: /.well-known/oauth-authorization-server

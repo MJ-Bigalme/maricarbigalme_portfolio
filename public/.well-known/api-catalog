@@ -1,0 +1,31 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://itsmjb.sticklight.app/",
+      "service-desc": [
+        {
+          "href": "https://itsmjb.sticklight.app/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://itsmjb.sticklight.app/AGENTS.md",
+          "type": "text/markdown"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://itsmjb.sticklight.app/portfolio.json",
+          "type": "application/json"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://itsmjb.sticklight.app/llms.txt",
+          "type": "text/plain"
+        }
+      ]
+    }
+  ]
+}

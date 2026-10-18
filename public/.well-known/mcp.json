@@ -1,15 +1,30 @@
 {
   "schema_version": "1.0",
+  "serverInfo": {
+    "name": "maricar-portfolio-mcp",
+    "version": "1.0.0"
+  },
   "name": "Maricar Joy Bigalme Portfolio",
   "description": "Professional portfolio and contact information for Maricar Joy M. Bigalme - Technical Support Engineer at Elementor",
+  "transport": {
+    "type": "http",
+    "endpoint": "https://itsmjb.sticklight.app/portfolio.json"
+  },
   "provider": {
     "name": "Maricar Joy M. Bigalme",
     "url": "https://itsmjb.sticklight.app"
   },
   "capabilities": {
-    "resources": true,
-    "tools": false,
-    "prompts": false
+    "resources": {
+      "supported": true,
+      "listChanged": false
+    },
+    "tools": {
+      "supported": false
+    },
+    "prompts": {
+      "supported": false
+    }
   },
   "resources": [
     {

@@ -1,0 +1,20 @@
+{
+  "issuer": "https://itsmjb.sticklight.app/",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "registration_endpoint": null,
+  "scopes_supported": [],
+  "response_types_supported": [],
+  "grant_types_supported": [],
+  "service_documentation": "https://itsmjb.sticklight.app/AGENTS.md",
+  "ui_locales_supported": ["en"],
+  "description": "This is a public portfolio website. No authentication is required - all resources are publicly accessible.",
+  "authentication_required": false,
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": [],
+    "credential_types_supported": [],
+    "note": "No agent registration required - public access"
+  }
+}

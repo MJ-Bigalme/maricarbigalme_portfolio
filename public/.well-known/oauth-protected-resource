@@ -1,0 +1,9 @@
+{
+  "resource": "https://itsmjb.sticklight.app/",
+  "authorization_servers": [],
+  "scopes_supported": [],
+  "bearer_methods_supported": [],
+  "resource_documentation": "https://itsmjb.sticklight.app/AGENTS.md",
+  "resource_description": "Public portfolio - no authentication required",
+  "authentication_required": false
+}
