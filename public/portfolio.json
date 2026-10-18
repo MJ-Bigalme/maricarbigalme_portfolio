@@ -8,7 +8,7 @@
     "name": "Maricar Joy M. Bigalme",
     "givenName": "Maricar Joy",
     "familyName": "Bigalme",
-    "jobTitle": "Customer Support Engineer – Tier 2",
+    "jobTitle": "Technical Support Engineer – Tier 2",
     "description": "IT Professional specializing in Elementor, Customer Experience, and Technical Support Engineering",
     "url": "https://maricarjoy.dev",
     "email": "maricarbigalmeeee@gmail.com",
@@ -97,7 +97,7 @@
   "experience": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Customer Support Engineer – Tier 2",
+      "roleName": "Technical Support Engineer – Tier 2",
       "startDate": "2026-10",
       "endDate": null,
       "organization": {
@@ -108,7 +108,7 @@
     },
     {
       "@type": "OrganizationRole",
-      "roleName": "Customer Support Engineer – Tier 1",
+      "roleName": "Technical Support Engineer – Tier 1",
       "startDate": "2024-09",
       "endDate": "2026-09",
       "organization": {
