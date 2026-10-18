@@ -16,10 +16,10 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
 {
-  company: 'Yngen Datacom Corp.',
+  company: 'Elementor · Yngen Datacom Corp.',
   roles: [
   {
-    title: 'Customer Support Engineer – Tier 2 (Elementor)',
+    title: 'Customer Support Engineer – Tier 2',
     period: 'October 2026 – Present',
     current: true,
     responsibilities: [
@@ -32,7 +32,7 @@ const experiences: ExperienceItem[] = [
 
   },
   {
-    title: 'Customer Support Engineer – Tier 1 (Elementor)',
+    title: 'Customer Support Engineer – Tier 1',
     period: 'September 2024 – September 2026',
     responsibilities: [
     'Delivered technical support via live chat and email ticketing systems',

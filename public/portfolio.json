@@ -8,7 +8,7 @@
     "name": "Maricar Joy M. Bigalme",
     "givenName": "Maricar Joy",
     "familyName": "Bigalme",
-    "jobTitle": "Customer Support Engineer – Tier 2 (Elementor)",
+    "jobTitle": "Customer Support Engineer – Tier 2",
     "description": "IT Professional specializing in Elementor, Customer Experience, and Technical Support Engineering",
     "url": "https://maricarjoy.dev",
     "email": "maricarbigalmeeee@gmail.com",
@@ -75,10 +75,17 @@
       "name": "Laguna State Polytechnic University – San Pablo City Campus",
       "department": "Information Technology"
     },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Yngen Datacom Corp."
-    }
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Elementor"
+      },
+      {
+        "@type": "Organization",
+        "name": "Yngen Datacom Corp.",
+        "description": "Vendor/Agency"
+      }
+    ]
   },
   "skills": {
     "programmingLanguages": ["C++", "C#", "HTML", "CSS", "PHP", "VB.NET", "JavaScript"],
@@ -90,7 +97,7 @@
   "experience": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Customer Support Engineer – Tier 2 (Elementor)",
+      "roleName": "Customer Support Engineer – Tier 2",
       "startDate": "2026-10",
       "endDate": null,
       "organization": {
@@ -101,7 +108,7 @@
     },
     {
       "@type": "OrganizationRole",
-      "roleName": "Customer Support Engineer – Tier 1 (Elementor)",
+      "roleName": "Customer Support Engineer – Tier 1",
       "startDate": "2024-09",
       "endDate": "2026-09",
       "organization": {
