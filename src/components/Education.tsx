@@ -15,8 +15,8 @@ const educationData = [
 },
 {
   school: 'Mater Ecclesiae School',
-  degree: 'Senior High School',
-  period: '2018 – 2020',
+  degree: 'Junior & Senior High School',
+  period: '2014 – 2020',
   location: 'Philippines',
   icon: School,
   color: 'cyan' as const,
