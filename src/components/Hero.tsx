@@ -122,7 +122,7 @@ export function Hero() {
                     
                     {/* Card */}
                     <div data-ev-id="ev_66f2a546b2"
-                    className="relative flex items-center gap-1.5 px-3 py-2 rounded-full bg-glass backdrop-blur-xl border transition-all duration-300 whitespace-nowrap"
+                    className="relative flex items-center gap-2 px-4 py-2.5 rounded-full bg-glass backdrop-blur-xl border transition-all duration-300 whitespace-nowrap"
                     style={{
                       borderColor: activeRole === i ? `${role.color}60` : 'rgba(255,255,255,0.1)',
                       boxShadow: activeRole === i ? `0 0 30px ${role.color}30, inset 0 0 20px ${role.color}10` : 'none'
@@ -130,7 +130,7 @@ export function Hero() {
 
                       {/* Animated icon container */}
                       <motion.div data-ev-id="ev_4871ce77ca"
-                      className="relative w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0"
+                      className="relative w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0"
                       style={{ background: `${role.color}20` }}
                       animate={{
                         rotate: [0, 5, -5, 0]
@@ -138,7 +138,7 @@ export function Hero() {
                       transition={{ duration: 4, repeat: Infinity, delay: i * 0.5 }}>
 
                         <Icon
-                          className="w-3 h-3 transition-all duration-300 group-hover:scale-110"
+                          className="w-3.5 h-3.5 transition-all duration-300 group-hover:scale-110"
                           style={{ color: role.color }} />
 
                         
@@ -156,7 +156,7 @@ export function Hero() {
                       
                       {/* Text */}
                       <span data-ev-id="ev_01e5f64030"
-                      className="text-xs font-medium transition-colors duration-300"
+                      className="text-sm font-medium transition-colors duration-300"
                       style={{ color: activeRole === i ? role.color : 'rgba(255,255,255,0.7)' }}>
 
                         {role.title}
@@ -164,7 +164,7 @@ export function Hero() {
                       
                       {/* Active indicator dot */}
                       <motion.div data-ev-id="ev_4c1bd23eb7"
-                      className="w-1.5 h-1.5 rounded-full"
+                      className="w-2 h-2 rounded-full"
                       style={{ background: role.color }}
                       animate={{
                         scale: [1, 1.3, 1],
