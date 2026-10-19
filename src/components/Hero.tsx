@@ -81,12 +81,22 @@ export function Hero() {
 							Elementor Specialist | CX & Technical Support
 						</motion.p>
 
+						{/* Tagline */}
+						<motion.p data-ev-id="ev_8948b063ae"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="text-lg text-text-secondary max-w-xl mx-auto lg:mx-0 mb-8">
+
+							Customer-centric Technical Specialist with expertise in web troubleshooting and omnichannel support.
+						</motion.p>
+
 						{/* Roles - Lively animated cards */}
 						<motion.div data-ev-id="ev_13c54837f0"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="flex flex-wrap justify-center lg:justify-start gap-2 mb-8">
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="flex flex-wrap justify-center lg:justify-start gap-3">
 
 							{roles.map((role, i) => {
                 const Icon = role.icon;
@@ -191,16 +201,6 @@ export function Hero() {
 
               })}
 						</motion.div>
-
-						{/* Tagline */}
-						<motion.p data-ev-id="ev_8948b063ae"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            className="text-lg text-text-secondary max-w-xl mx-auto lg:mx-0 mb-10">
-
-							Customer-centric Technical Specialist with expertise in web troubleshooting and omnichannel support.
-						</motion.p>
 					</div>
 
 					{/* Profile image */}
