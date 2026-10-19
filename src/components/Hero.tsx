@@ -76,7 +76,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-base sm:text-xl md:text-2xl text-electric-blue font-medium mb-4">
+            className="text-base sm:text-xl md:text-2xl text-electric-blue font-medium mt-4 mb-8">
 
 							Elementor Specialist | CX & Technical Support
 						</motion.p>
@@ -86,7 +86,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg text-text-secondary max-w-xl mx-auto lg:mx-0 mb-8">
+            className="text-lg text-text-secondary max-w-xl mx-auto lg:mx-0 mb-10">
 
 							Customer-centric Technical Specialist with expertise in web troubleshooting and omnichannel support.
 						</motion.p>
